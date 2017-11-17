@@ -402,6 +402,15 @@ template {
     display: flex;
     justify-content: space-evenly; }
 
+.spotlight-img {
+  width: 100%;
+  height: auto; }
+
+.spotlight {
+  padding: 0;
+  background-color: pink;
+  width: 100%; }
+
 body {
   background-color: #d44500; }
 

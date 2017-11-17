@@ -1,12 +1,13 @@
+
 @import 'articles-images';
+@import 'header';
+@import 'spotlight';
+
 
 body {
 	background-color:  $suorange;
 }
-header {
-	height:  150px;
-	background-color:  orange;
-}
+
 nav {
 	height:  50px;
 	background-color:  green;

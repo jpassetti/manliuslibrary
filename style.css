@@ -1,0 +1,54 @@
+body {
+  background-color: #d44500; }
+
+header {
+  height: 150px;
+  background-color: orange; }
+
+nav {
+  height: 50px;
+  background-color: green; }
+
+nav ul li {
+  display: inline-block; }
+
+nav ul li a {
+  font-family: Arial;
+  font-weight: bold;
+  color: white;
+  font-size: 18px; }
+
+.main-content {
+  min-height: 500px;
+  background-color: #ffffff; }
+
+.myTags {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.myTags a {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  margin: 0px 5px; }
+
+.post-categories {
+  margin: 0px;
+  padding: 0px; }
+
+.post-categories li {
+  list-style: none; }
+
+.single-img {
+  width: 100%;
+  height: auto; }
+
+.sidebar {
+  min-height: 500px;
+  background-color: aqua; }
+
+.footer {
+  height: 150px;
+  background-color: gray; }
+
+/*# sourceMappingURL=style.css.map */

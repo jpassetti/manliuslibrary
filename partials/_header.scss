@@ -1,0 +1,19 @@
+#top-header {
+	display:flex;
+	justify-content: space-between;	
+
+// 	height:  150px;
+	// background-color:  orange;
+}
+
+#site-logo{
+	max-width:15vw;
+}
+
+#top-nav{
+	min-width:70%;
+	.menu-list{
+		display:flex;
+		justify-content:space-evenly;
+	}
+}

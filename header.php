@@ -1,7 +1,7 @@
 <!doctype html>
 	<html lang="en">
 		<head>
-			<title>Manlius Libary</title>
+			<title>Newhouse Replica</title>
 			<script src="https://use.fontawesome.com/964b38d4d8.js"></script>
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 			<link rel="stylesheet" 
@@ -9,12 +9,18 @@
 		</head>
 		<body>
 		<div class="container">
-			<header class="row">
-				Logo goes here
-			</header>
-			<nav class="row">
-				<ul>
-					<li><a href="<?php bloginfo('url'); ?>">Home</a></li>
-					<?php wp_list_pages('title_li='); ?>
-				</ul>
-			</nav>
+			<div id="top Nav">
+				<header id='top-header'>
+					<img id="site-logo" src="<?php bloginfo('template_directory') ?>/images/newhouse-school-syracuse-university-logo.svg">			
+					<nav id='top-nav'>
+						<ul class='menu-list'>
+							<li class="menu-item"><a href="#">About</a></li>
+							<li class="menu-item"><a href="#">Academics</a></li>
+							<li class="menu-item"><a href="#">Admissions</a></li>
+							<li class="menu-item"><a href="#">Career Development</a></li>
+							<li class="menu-item"><a href="#">News &amp; Events</a></li>
+						</ul>
+					</nav>
+				</header>	
+			</div>
+			
